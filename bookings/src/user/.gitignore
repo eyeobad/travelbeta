@@ -1,0 +1,64 @@
+# ===================================================================
+# Django Backend
+# ===================================================================
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual Environment
+# Replace 'env/' with the name of your virtual environment directory (e.g., venv/, .venv/)
+env/
+venv/
+.venv/
+
+# Local database file (for development)
+db.sqlite3
+*.sqlite3
+
+# Environment variables
+# This file contains secrets and should NEVER be committed.
+.env
+
+# Log files
+*.log
+logs/
+
+# User-uploaded media files
+media/
+
+# Collected static files for deployment
+# Your source static files in each app's 'static' folder should be committed.
+staticfiles/
+static_root/
+
+# ===================================================================
+# React Frontend (Create-React-App)
+# ===================================================================
+
+# Dependencies
+node_modules/
+
+# Production build folder
+build/
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===================================================================
+# General / OS-specific
+# ===================================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
