@@ -69,7 +69,7 @@ export const AuthProvider = ({ children }) => {
   // Authentication functions
   const loginUser = async (username, password) => {
     try {
-      const response = await fetch("http://3.145.117.245:8000/login/", {
+      const response = await fetch("https://e3d77df19da1.ngrok-free.app/login/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -97,7 +97,7 @@ export const AuthProvider = ({ children }) => {
       return;
     }
     try {
-      const response = await fetch("http://3.145.117.245:8000/register/", {
+      const response = await fetch("https://e3d77df19da1.ngrok-free.app/register/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password, email, last_name, first_name, password2 }),
@@ -129,7 +129,7 @@ export const AuthProvider = ({ children }) => {
       if (!authTokens) return;
       try {
         const response = await fetchWithTimeout(
-          "http://3.145.117.245:8000/profile/",
+          "https://e3d77df19da1.ngrok-free.app/profile/",
           {
             method: "GET",
             headers: {
@@ -159,7 +159,7 @@ export const AuthProvider = ({ children }) => {
   const updateProfile = async (updatedData) => {
     if (!authTokens) return;
     try {
-      const response = await fetch("http://3.145.117.245:8000/profile/", {
+      const response = await fetch("https://e3d77df19da1.ngrok-free.app/profile/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -184,7 +184,7 @@ export const AuthProvider = ({ children }) => {
   const refreshToken = useCallback(async () => {
     if (!authTokens?.refresh) return;
     try {
-      const response = await fetch("http://3.145.117.245:8000/api/token/refresh/", {
+      const response = await fetch("https://e3d77df19da1.ngrok-free.app/api/token/refresh/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ refresh: authTokens.refresh }),
