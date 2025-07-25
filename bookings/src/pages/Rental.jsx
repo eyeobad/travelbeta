@@ -243,7 +243,7 @@ export default function Rental() {
               {/* reCAPTCHA */}
               <div className="flex justify-center">
                 <ReCAPTCHA
-                  sitekey="6Ldz6aIqAAAAACN4y5k91M2zlGnWESKRmqwtYb1X"
+                  sitekey="6LfC-44rAAAAAGJpGPNjgSw1skQHi3bNU550XEQE"
                   onChange={(token) => setRecaptchaToken(token)}
                   onExpired={() => {
                     setRecaptchaToken("");
