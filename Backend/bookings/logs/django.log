@@ -12407,3 +12407,420 @@ INFO 2025-07-18 15:15:50,661 basehttp 14228 7836 "POST /api/token/refresh/ HTTP/
 INFO 2025-07-18 15:15:50,680 basehttp 14228 7836 "GET /profile/ HTTP/1.1" 200 105
 INFO 2025-07-18 15:16:10,809 autoreload 14228 1880 C:\Users\User\Desktop\django backend for work template\bookingflight\Backend\bookings\travelbeta\views.py changed, reloading.
 INFO 2025-07-18 15:16:12,484 autoreload 7020 10516 Watching for file changes with StatReloader
+INFO 2025-07-18 15:19:51,709 basehttp 7020 12440 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:19:51,739 basehttp 7020 12440 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:20:10,754 basehttp 7020 14052 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 15:20:10,755 basehttp 7020 17348 "GET /api/vacations/ HTTP/1.1" 200 623
+ERROR 2025-07-18 15:20:24,403 log 7020 7876 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 15:20:24,452 basehttp 7020 7876 "GET /api/map-destinations/ HTTP/1.1" 500 243
+WARNING 2025-07-18 15:21:22,487 log 7020 1760 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,491 basehttp 7020 1760 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 15:21:22,508 basehttp 7020 1760 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 15:21:22,523 log 7020 12440 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,534 basehttp 7020 12440 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:21:22,545 log 7020 16884 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,554 basehttp 7020 16884 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:21:22,556 log 7020 13220 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,564 log 7020 2648 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,568 log 7020 16404 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:21:22,570 basehttp 7020 16404 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:21:22,568 basehttp 7020 13220 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:21:22,571 basehttp 7020 2648 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 15:21:32,160 basehttp 7020 9012 "GET /api/hotels/?q=lon HTTP/1.1" 200 409
+INFO 2025-07-18 15:21:35,579 basehttp 7020 2224 "GET /api/hotels/?q=lond HTTP/1.1" 200 212
+ERROR 2025-07-18 15:21:36,717 views 7020 9012 Amadeus city search error for 'london': 429 Client Error: Too Many Requests for url: https://test.api.amadeus.com/v1/reference-data/locations?keyword=london&subType=CITY
+ERROR 2025-07-18 15:21:36,719 log 7020 9012 Internal Server Error: /api/hotels/
+ERROR 2025-07-18 15:21:36,721 basehttp 7020 9012 "GET /api/hotels/?q=london HTTP/1.1" 500 44
+ERROR 2025-07-18 15:21:46,431 views 7020 9012 Amadeus city search error for 'LONDON/CORBIN, US': 400 Client Error: Bad Request for url: https://test.api.amadeus.com/v1/reference-data/locations?keyword=LONDON%2FCORBIN%2C+US&subType=CITY
+ERROR 2025-07-18 15:21:46,433 log 7020 9012 Internal Server Error: /api/hotels/
+ERROR 2025-07-18 15:21:46,434 basehttp 7020 9012 "GET /api/hotels/?q=LONDON%2FCORBIN%2C%20US HTTP/1.1" 500 44
+ERROR 2025-07-18 15:21:56,485 views 7020 14052 Amadeus hotel offers error for city 'LOZ': 400 Client Error: Bad Request for url: https://test.api.amadeus.com/v3/shopping/hotel-offers?cityCode=LOZ&checkInDate=2025-07-20&checkOutDate=2025-07-23&adults=1&roomQuantity=1&paymentPolicy=NONE&bestRateOnly=true
+ERROR 2025-07-18 15:21:56,486 views 7020 14052 Amadeus response body: No response
+ERROR 2025-07-18 15:21:56,487 log 7020 14052 Internal Server Error: /hotel-bookings/
+ERROR 2025-07-18 15:21:56,489 basehttp 7020 14052 "POST /hotel-bookings/ HTTP/1.1" 500 59
+INFO 2025-07-18 15:25:22,692 basehttp 7020 7432 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:25:22,726 basehttp 7020 7432 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:26:36,574 basehttp 7020 9304 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:26:36,584 basehttp 7020 15660 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 15:26:37,218 log 7020 15660 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:26:37,222 log 7020 9304 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:26:37,242 basehttp 7020 15660 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:26:37,245 basehttp 7020 9304 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 15:26:37,273 basehttp 7020 15660 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 15:26:37,278 basehttp 7020 9304 "GET /api/vacations/ HTTP/1.1" 200 623
+WARNING 2025-07-18 15:26:37,303 log 7020 4968 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:26:37,308 log 7020 16520 Unauthorized: /flight-bookings/
+INFO 2025-07-18 15:26:37,321 basehttp 7020 9304 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+WARNING 2025-07-18 15:26:37,325 log 7020 1760 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:26:37,327 basehttp 7020 4968 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:26:37,333 basehttp 7020 16520 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:26:37,349 log 7020 3928 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:26:37,351 basehttp 7020 1760 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 15:26:37,373 basehttp 7020 4968 "GET /api/vacations/ HTTP/1.1" 200 623
+WARNING 2025-07-18 15:26:37,374 basehttp 7020 3928 "POST /flight-bookings/ HTTP/1.1" 401 58
+ERROR 2025-07-18 15:26:42,448 log 7020 15660 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 15:26:42,457 basehttp 7020 15660 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 15:26:45,002 log 7020 5424 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 15:26:45,004 basehttp 7020 5424 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 15:26:56,426 basehttp 7020 7164 "GET /api/hotels/?q=lagos HTTP/1.1" 200 49
+INFO 2025-07-18 15:26:57,670 basehttp 7020 15064 "GET /api/hotels/?q=lago HTTP/1.1" 200 135
+ERROR 2025-07-18 15:27:08,077 views 7020 15064 Amadeus city search error for 'CHIGNIK, US': 400 Client Error: Bad Request for url: https://test.api.amadeus.com/v1/reference-data/locations?keyword=CHIGNIK%2C+US&subType=CITY
+ERROR 2025-07-18 15:27:08,078 log 7020 15064 Internal Server Error: /api/hotels/
+ERROR 2025-07-18 15:27:08,080 basehttp 7020 15064 "GET /api/hotels/?q=CHIGNIK%2C%20US HTTP/1.1" 500 44
+ERROR 2025-07-18 15:27:18,549 views 7020 1532 Amadeus hotel offers error for city 'KCL': 400 Client Error: Bad Request for url: https://test.api.amadeus.com/v3/shopping/hotel-offers?cityCode=KCL&checkInDate=2025-07-20&checkOutDate=2025-07-24&adults=1&roomQuantity=1&paymentPolicy=NONE&bestRateOnly=true
+ERROR 2025-07-18 15:27:18,550 views 7020 1532 Amadeus response body: No response
+ERROR 2025-07-18 15:27:18,551 log 7020 1532 Internal Server Error: /hotel-bookings/
+ERROR 2025-07-18 15:27:18,552 basehttp 7020 1532 "POST /hotel-bookings/ HTTP/1.1" 500 59
+INFO 2025-07-18 15:27:31,322 basehttp 7020 10112 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 15:27:34,932 log 7020 10112 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:27:34,945 basehttp 7020 10112 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:27:34,951 log 7020 17396 Unauthorized: /flight-bookings/
+INFO 2025-07-18 15:27:34,967 basehttp 7020 10112 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 15:27:34,974 basehttp 7020 17396 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:27:34,979 log 7020 15312 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:27:34,984 log 7020 9548 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:27:34,985 basehttp 7020 15312 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:27:34,987 basehttp 7020 9548 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:27:34,991 log 7020 9920 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:27:34,993 basehttp 7020 9920 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 15:27:34,997 log 7020 15604 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 15:27:35,000 basehttp 7020 15604 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 15:28:07,056 basehttp 7020 12360 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:28:20,832 basehttp 7020 15660 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:28:26,094 basehttp 7020 6060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:28:28,463 basehttp 7020 6060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:28:31,945 basehttp 7020 6060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:32:32,658 basehttp 7020 6932 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:32:32,674 basehttp 7020 6932 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:36:32,732 basehttp 7020 15668 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:36:32,747 basehttp 7020 15668 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:40:33,696 basehttp 7020 10480 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:40:33,739 basehttp 7020 10480 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:44:34,710 basehttp 7020 8856 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:44:34,736 basehttp 7020 8856 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:48:35,682 basehttp 7020 9920 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:48:35,722 basehttp 7020 9920 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:52:36,726 basehttp 7020 17060 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:52:36,786 basehttp 7020 17060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 15:56:37,736 basehttp 7020 10804 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 15:56:37,786 basehttp 7020 10804 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:00:38,666 basehttp 7020 4128 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:00:39,155 basehttp 7020 4128 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:04:39,652 basehttp 7020 11896 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:04:39,675 basehttp 7020 11896 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:08:40,653 basehttp 7020 11060 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:08:40,672 basehttp 7020 11060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:12:41,663 basehttp 7020 8468 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:12:41,685 basehttp 7020 8468 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:06,313 basehttp 7020 12772 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:06,337 basehttp 7020 9916 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:06,640 basehttp 7020 12772 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:14:06,645 basehttp 7020 3068 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:14:06,668 basehttp 7020 12772 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:14:06,688 basehttp 7020 14868 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:14:15,624 basehttp 7020 3832 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:18,406 basehttp 7020 16212 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:14:19,486 log 7020 9916 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:14:19,488 basehttp 7020 9916 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:14:21,678 basehttp 7020 9916 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:14:22,523 log 7020 16212 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:14:22,525 basehttp 7020 16212 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:14:23,725 basehttp 7020 3000 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:25,364 basehttp 7020 3000 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:25,449 basehttp 7020 8944 "GET /media/vacations/shutterstock_1866004087.jpg HTTP/1.1" 200 366794
+INFO 2025-07-18 16:14:30,143 basehttp 7020 3000 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:14:32,387 log 7020 3000 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,397 log 7020 10792 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,409 basehttp 7020 3000 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:14:32,411 log 7020 15160 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,413 basehttp 7020 10792 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:14:32,449 log 7020 3000 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,486 basehttp 7020 3000 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:14:32,480 basehttp 7020 15160 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:14:32,476 log 7020 16276 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,490 basehttp 7020 16276 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:14:32,505 log 7020 7088 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:14:32,509 basehttp 7020 7088 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:14:32,523 basehttp 7020 8560 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:14:40,304 basehttp 7020 16492 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:09,648 basehttp 7020 13752 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:11,376 basehttp 7020 13752 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:47,662 basehttp 7020 6384 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:47,686 basehttp 7020 6384 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:48,015 basehttp 7020 6384 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:15:48,015 basehttp 7020 8968 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:15:48,054 basehttp 7020 14952 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:15:48,058 basehttp 7020 9044 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:15:48,660 basehttp 7020 9044 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:15:51,445 log 7020 7772 Internal Server Error: /api/map-destinations/
+INFO 2025-07-18 16:15:51,449 basehttp 7020 7772 - Broken pipe from ('127.0.0.1', 59106)
+INFO 2025-07-18 16:15:53,477 basehttp 7020 14636 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:53,497 basehttp 7020 14636 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:15:53,670 basehttp 7020 3528 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:15:53,678 basehttp 7020 1416 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:15:53,815 basehttp 7020 3528 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:15:53,830 basehttp 7020 1416 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+ERROR 2025-07-18 16:16:02,186 log 7020 14636 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:16:02,187 basehttp 7020 14636 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:16:04,634 basehttp 7020 12344 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:16:06,866 log 7020 1416 Internal Server Error: /api/map-destinations/
+INFO 2025-07-18 16:16:06,868 basehttp 7020 1416 - Broken pipe from ('127.0.0.1', 59123)
+INFO 2025-07-18 16:16:08,416 basehttp 7020 12344 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:16:08,493 basehttp 7020 11520 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:16:08,839 basehttp 7020 12344 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:16:08,947 basehttp 7020 13668 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:16:08,991 basehttp 7020 12344 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:16:09,021 basehttp 7020 16936 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:16:09,791 basehttp 7020 16936 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:16:14,283 log 7020 11520 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:16:14,284 basehttp 7020 11520 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:16:18,492 log 7020 11468 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:16:18,493 basehttp 7020 11468 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:16:59,442 basehttp 7020 16752 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:08,607 basehttp 7020 10124 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:08,617 basehttp 7020 10124 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:08,963 basehttp 7020 10124 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:17:08,979 basehttp 7020 9000 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:17:09,013 basehttp 7020 10124 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:17:09,204 basehttp 7020 9160 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:17:10,152 basehttp 7020 9160 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:11,923 basehttp 7020 9160 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:17:13,649 log 7020 2648 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,656 basehttp 7020 2648 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:13,660 log 7020 2132 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,675 log 7020 2648 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,684 basehttp 7020 2132 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:13,688 log 7020 12984 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,693 basehttp 7020 2648 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:13,703 basehttp 7020 12984 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:17:13,704 basehttp 7020 2132 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:17:13,712 log 7020 13968 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,719 log 7020 12584 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:13,720 basehttp 7020 13968 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:13,721 basehttp 7020 12584 "POST /flight-bookings/ HTTP/1.1" 401 58
+ERROR 2025-07-18 16:17:15,209 log 7020 7976 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:17:15,210 basehttp 7020 7976 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:17:19,685 basehttp 7020 7976 "GET /profile/ HTTP/1.1" 200 105
+ERROR 2025-07-18 16:17:20,493 log 7020 2132 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:17:20,494 basehttp 7020 2132 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:17:21,280 basehttp 7020 2132 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:27,059 basehttp 7020 16912 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:17:28,174 log 7020 16912 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:28,194 basehttp 7020 16912 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:28,203 log 7020 16912 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:28,216 basehttp 7020 16912 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:28,215 log 7020 14596 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:17:28,241 basehttp 7020 16912 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:17:28,245 log 7020 7876 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:28,247 basehttp 7020 14596 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:28,260 basehttp 7020 7876 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:28,265 log 7020 12328 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:28,267 basehttp 7020 12328 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:17:28,273 log 7020 11880 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:17:28,275 basehttp 7020 11880 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:17:42,410 basehttp 7020 17060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:17:44,304 basehttp 7020 17060 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:18:14,607 basehttp 7020 3496 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:18:16,287 log 7020 3496 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,313 basehttp 7020 3496 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:18:16,327 basehttp 7020 3496 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:18:16,333 log 7020 14704 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,340 log 7020 10392 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,340 basehttp 7020 14704 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:18:16,344 basehttp 7020 10392 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:18:16,357 log 7020 3648 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,369 log 7020 15000 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,371 log 7020 2932 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:18:16,373 basehttp 7020 15000 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:18:16,373 basehttp 7020 3648 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:18:16,375 basehttp 7020 2932 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:21:01,071 basehttp 7020 8440 "POST /flight-bookings/ HTTP/1.1" 200 35672
+INFO 2025-07-18 16:21:01,267 basehttp 7020 8440 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:22:51,743 log 7020 12936 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:51,749 log 7020 17012 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:51,760 basehttp 7020 17012 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:22:51,754 basehttp 7020 12936 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:22:51,765 log 7020 5692 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:51,862 basehttp 7020 5692 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:22:51,870 basehttp 7020 12936 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:22:51,916 log 7020 1808 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:51,983 basehttp 7020 1808 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:22:51,987 log 7020 12468 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:52,106 basehttp 7020 12468 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:22:52,167 log 7020 11004 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:22:52,264 basehttp 7020 11004 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:23:15,938 basehttp 7020 16492 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:23:23,614 log 7020 10292 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:23:23,624 log 7020 17316 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:23:23,637 basehttp 7020 10292 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:23:23,641 basehttp 7020 17316 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:23:23,650 log 7020 4068 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:23:23,661 basehttp 7020 10292 "GET /profile/ HTTP/1.1" 200 105
+WARNING 2025-07-18 16:23:23,684 basehttp 7020 4068 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:23:23,707 log 7020 15600 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:23:23,728 basehttp 7020 15600 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:23:23,731 log 7020 10128 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:23:23,741 log 7020 10384 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:23:23,743 basehttp 7020 10128 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:23:23,746 basehttp 7020 10384 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:27:23,678 basehttp 7020 7664 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:27:23,705 basehttp 7020 7664 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:28:07,418 basehttp 7020 12900 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:28:24,705 basehttp 7020 10440 "OPTIONS /profile/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:28:24,714 basehttp 7020 14752 "OPTIONS /profile/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:28:24,719 basehttp 7020 10440 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:28:24,728 basehttp 7020 14752 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:28:25,214 basehttp 7020 1548 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:28:25,319 basehttp 7020 1132 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:28:25,330 basehttp 7020 1548 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:28:25,348 basehttp 7020 16960 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+ERROR 2025-07-18 16:28:30,130 log 7020 16528 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:28:30,131 basehttp 7020 16528 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:28:33,901 log 7020 16960 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:28:33,902 basehttp 7020 16960 "GET /api/map-destinations/ HTTP/1.1" 500 243
+WARNING 2025-07-18 16:29:13,507 log 7020 8468 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,512 basehttp 7020 8468 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:29:13,516 log 7020 17300 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,524 basehttp 7020 17300 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:29:13,528 log 7020 15260 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,530 basehttp 7020 15260 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:29:13,535 log 7020 1736 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,537 basehttp 7020 1736 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:29:13,544 log 7020 14356 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,547 log 7020 6408 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:29:13,548 basehttp 7020 14356 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:29:13,551 basehttp 7020 6408 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:32:49,587 basehttp 7020 516 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:32:49,601 basehttp 7020 13732 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:32:49,601 basehttp 7020 8884 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:32:49,623 basehttp 7020 516 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:32:49,634 basehttp 7020 15204 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:32:49,635 basehttp 7020 10908 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:32:49,639 log 7020 516 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:32:49,651 basehttp 7020 8884 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:32:49,652 basehttp 7020 10456 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:32:49,654 log 7020 15204 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:32:49,657 log 7020 10908 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:32:49,659 basehttp 7020 516 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:32:49,670 log 7020 8884 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:32:49,675 basehttp 7020 15204 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:32:49,685 basehttp 7020 10908 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:32:49,686 basehttp 7020 10456 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+WARNING 2025-07-18 16:32:49,694 log 7020 516 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:32:49,695 basehttp 7020 8884 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:32:49,702 log 7020 15204 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:32:49,717 basehttp 7020 516 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:32:49,717 basehttp 7020 10908 "GET /api/vacations/ HTTP/1.1" 200 623
+WARNING 2025-07-18 16:32:49,728 basehttp 7020 15204 "POST /flight-bookings/ HTTP/1.1" 401 58
+ERROR 2025-07-18 16:32:55,154 log 7020 13732 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:32:55,167 basehttp 7020 13732 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:33:02,240 log 7020 13732 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:33:02,242 basehttp 7020 13732 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:33:13,656 basehttp 7020 9056 "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:33:13,711 basehttp 7020 9056 "POST /api/token/refresh/ HTTP/1.1" 200 483
+INFO 2025-07-18 16:33:13,747 basehttp 7020 9056 "GET /profile/ HTTP/1.1" 200 105
+INFO 2025-07-18 16:51:39,729 autoreload 5644 15196 Watching for file changes with StatReloader
+INFO 2025-07-18 16:51:55,944 basehttp 5644 1188 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:51:55,957 basehttp 5644 8484 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+INFO 2025-07-18 16:51:56,020 basehttp 5644 1188 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:51:56,127 basehttp 5644 8484 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:51:56,292 basehttp 5644 11084 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:51:56,377 log 5644 1188 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:51:56,391 log 5644 8484 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:51:56,469 basehttp 5644 10956 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:51:56,493 basehttp 5644 1188 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:51:56,530 basehttp 5644 8484 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:51:56,532 basehttp 5644 8020 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:51:56,571 log 5644 10956 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:51:56,579 basehttp 5644 12000 "OPTIONS /flight-bookings/ HTTP/1.1" 200 0
+WARNING 2025-07-18 16:51:56,596 log 5644 8020 Unauthorized: /flight-bookings/
+INFO 2025-07-18 16:51:56,600 basehttp 5644 1188 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:51:56,610 basehttp 5644 8484 "GET /api/vacations/ HTTP/1.1" 200 623
+WARNING 2025-07-18 16:51:56,636 basehttp 5644 10956 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:51:56,642 log 5644 12000 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:51:56,653 basehttp 5644 8020 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:51:56,666 log 5644 1188 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 16:51:56,704 basehttp 5644 12000 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 16:51:56,730 basehttp 5644 1188 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 16:52:01,800 basehttp 5644 10424 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:52:01,815 basehttp 5644 6748 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:52:01,830 basehttp 5644 10424 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:52:01,842 basehttp 5644 16184 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+ERROR 2025-07-18 16:52:06,189 log 5644 11084 Internal Server Error: /api/map-destinations/
+INFO 2025-07-18 16:52:06,191 basehttp 5644 11084 - Broken pipe from ('127.0.0.1', 61048)
+ERROR 2025-07-18 16:52:11,999 log 5644 8508 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:52:12,001 basehttp 5644 8508 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:52:15,181 log 5644 5520 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:52:15,184 basehttp 5644 5520 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:54:32,670 basehttp 5644 8988 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:54:32,675 basehttp 5644 8844 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:54:32,695 basehttp 5644 8988 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:54:32,696 basehttp 5644 9964 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+ERROR 2025-07-18 16:54:37,287 log 5644 10392 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:54:37,290 basehttp 5644 10392 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:54:40,428 log 5644 14856 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:54:40,453 basehttp 5644 14856 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 16:56:30,897 basehttp 5644 428 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:56:31,025 basehttp 5644 17356 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 16:56:31,062 basehttp 5644 428 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 16:56:31,113 basehttp 5644 10264 "GET /api/vacations/ HTTP/1.1" 200 623
+ERROR 2025-07-18 16:56:35,208 log 5644 400 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:56:35,213 basehttp 5644 400 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 16:56:43,458 log 5644 10264 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 16:56:43,466 basehttp 5644 10264 "GET /api/map-destinations/ HTTP/1.1" 500 243
+INFO 2025-07-18 17:00:17,912 autoreload 14832 15412 Watching for file changes with StatReloader
+WARNING 2025-07-18 17:00:29,196 log 14832 12160 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,198 log 14832 11996 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,202 basehttp 14832 12160 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:00:29,203 basehttp 14832 11996 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:00:29,205 log 14832 7952 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,208 log 14832 7488 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,212 log 14832 5596 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,216 basehttp 14832 7952 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:00:29,216 basehttp 14832 7488 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:00:29,221 log 14832 16800 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:00:29,226 basehttp 14832 5596 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:00:29,231 basehttp 14832 16800 "POST /flight-bookings/ HTTP/1.1" 401 58
+INFO 2025-07-18 17:02:38,557 basehttp 14832 10516 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 17:02:38,565 basehttp 14832 9100 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+INFO 2025-07-18 17:02:38,579 basehttp 14832 10516 "GET /api/vacations/ HTTP/1.1" 200 623
+INFO 2025-07-18 17:02:38,608 basehttp 14832 9100 "GET /api/car-rentals/ HTTP/1.1" 200 3583
+WARNING 2025-07-18 17:02:45,056 log 14832 13820 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,059 log 14832 9200 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,059 basehttp 14832 13820 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:02:45,063 log 14832 13820 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,066 basehttp 14832 9200 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:02:45,071 log 14832 4072 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,074 basehttp 14832 13820 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:02:45,084 log 14832 14752 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,090 log 14832 2972 Unauthorized: /flight-bookings/
+WARNING 2025-07-18 17:02:45,097 basehttp 14832 4072 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:02:45,100 basehttp 14832 2972 "POST /flight-bookings/ HTTP/1.1" 401 58
+WARNING 2025-07-18 17:02:45,102 basehttp 14832 14752 "POST /flight-bookings/ HTTP/1.1" 401 58
+ERROR 2025-07-18 17:02:46,824 log 14832 14488 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 17:02:46,825 basehttp 14832 14488 "GET /api/map-destinations/ HTTP/1.1" 500 243
+ERROR 2025-07-18 17:02:51,325 log 14832 14488 Internal Server Error: /api/map-destinations/
+ERROR 2025-07-18 17:02:51,326 basehttp 14832 14488 "GET /api/map-destinations/ HTTP/1.1" 500 243
+WARNING 2025-07-18 17:03:05,843 log 14832 6584 Not Found: /
+WARNING 2025-07-18 17:03:05,844 basehttp 14832 6584 "GET / HTTP/1.1" 404 6074
+WARNING 2025-07-18 17:03:06,080 log 14832 6584 Not Found: /favicon.ico
+WARNING 2025-07-18 17:03:06,091 basehttp 14832 6584 "GET /favicon.ico HTTP/1.1" 404 6125
+INFO 2025-07-18 17:03:22,384 basehttp 14832 6068 "GET /admin HTTP/1.1" 301 0
+INFO 2025-07-18 17:03:22,458 basehttp 14832 7540 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-18 17:03:22,530 basehttp 14832 7540 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2025-07-18 17:03:23,427 basehttp 14832 10384 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-07-18 17:03:23,461 basehttp 14832 7540 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-07-18 17:03:23,472 basehttp 14832 13536 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-07-18 17:03:23,545 basehttp 14832 11668 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-07-18 17:03:23,551 basehttp 14832 15060 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-07-18 17:03:23,560 basehttp 14832 15060 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-18 17:03:23,659 basehttp 14832 1184 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-07-18 17:03:31,854 basehttp 14832 1184 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-18 17:03:31,904 basehttp 14832 1184 "GET /admin/ HTTP/1.1" 200 12542
+INFO 2025-07-18 17:03:31,960 basehttp 14832 1184 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-18 17:03:39,073 basehttp 14832 9920 "GET /admin/travelbeta/vacation/ HTTP/1.1" 200 14621
+INFO 2025-07-18 17:03:39,115 basehttp 14832 9920 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-07-18 17:03:39,137 basehttp 14832 3008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-07-18 17:03:39,212 basehttp 14832 3008 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-07-18 17:03:39,276 basehttp 14832 3008 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-07-18 17:03:39,343 basehttp 14832 3008 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331

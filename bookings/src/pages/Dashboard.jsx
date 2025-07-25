@@ -124,13 +124,13 @@ export default function Dashboard() {
                   {flightCount}
                 </p>
                 <Link
-                  to="/book-flight"
+                  to="/"
                   className="bg-[#FFC107] text-black font-bold py-2 px-4 rounded hover:bg-[#e6ac0c] transition-colors no-underline"
                 >
                   Book Flight
                 </Link>
                 <Link
-                  to="/previous-flights"
+                  to="/"
                   className="mt-2 text-sm text-blue-600 hover:underline no-underline"
                 >
                   View previous bookings
@@ -147,13 +147,13 @@ export default function Dashboard() {
                   {hotelCount}
                 </p>
                 <Link
-                  to="/book-hotel"
+                  to="/"
                   className="bg-[#FFC107] text-black font-bold py-2 px-4 rounded hover:bg-[#e6ac0c] transition-colors no-underline"
                 >
                   Book Hotels
                 </Link>
                 <Link
-                  to="/previous-hotels"
+                  to="/"
                   className="mt-2 text-sm text-blue-600 hover:underline no-underline"
                 >
                   View previous bookings
@@ -170,13 +170,13 @@ export default function Dashboard() {
                   {packageCount}
                 </p>
                 <Link
-                  to="/book-package"
+                  to="/vacation"
                   className="bg-[#FFC107] text-black font-bold py-2 px-4 rounded hover:bg-[#e6ac0c] transition-colors no-underline"
                 >
                   Book Packages
                 </Link>
                 <Link
-                  to="/previous-packages"
+                  to="/"
                   className="mt-2 text-sm text-blue-600 hover:underline no-underline"
                 >
                   View previous bookings
@@ -193,7 +193,7 @@ export default function Dashboard() {
                   {visaCount}
                 </p>
                 <Link
-                  to="/apply-visa"
+                  to="/"
                   className="bg-[#FFC107] text-black font-bold py-2 px-4 rounded hover:bg-[#e6ac0c] transition-colors no-underline"
                 >
                   Book Visa

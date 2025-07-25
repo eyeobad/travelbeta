@@ -53,7 +53,7 @@ const Footer = () => {
                 <h5 className="font-bold text-lg mb-3 ml-4">Account</h5>
                 <ul className="space-y-2">
                   <li>
-                    <Link to="/user/login" className="block py-1 text-light no-underline hover:underline">
+                    <Link to="/login" className="block py-1 text-light no-underline hover:underline">
                       My Account
                     </Link>
                   </li>

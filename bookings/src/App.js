@@ -15,6 +15,7 @@ import ReserveVacation from './pages/ReserveVacation';
 import FlightDeals from './pages/Deals';
 import FlightSearchResults from './pages/Search-result';
 import HotelSearchResults from './pages/HotelSearchResults';
+import { NotFoundPage } from './pages/404';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
               <Route path="deals/:flightId" element={<FlightDeals />} />
               <Route path="/flights-search-result" element={<FlightSearchResults  />} />
               <Route path="/hotel-search-result" element={<HotelSearchResults />} />
-
+              <Route path="*" element={<NotFoundPage />} />
 
             </Route>
             {/* Signup route does not use the Template */}
