@@ -62,7 +62,7 @@ export const ProductProvider = ({ children }) => {
     }) => {
       setLoading(true);
       try {
-        const res = await fetch("http://127.0.0.1:8000/flight-bookings/", {
+        const res = await fetch("http://3.145.117.245:8000/flight-bookings/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -97,7 +97,7 @@ export const ProductProvider = ({ children }) => {
     async ({ cityCode, checkInDate, checkOutDate, adults, rooms }) => {
       setLoading(true);
       try {
-        const res = await fetch("http://127.0.0.1:8000/hotel-bookings/", {
+        const res = await fetch("http://3.145.117.245:8000/hotel-bookings/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -135,7 +135,7 @@ export const ProductProvider = ({ children }) => {
     async ({ cityCode, checkInDate, checkOutDate, adults = 1 }) => {
       setLoading(true);
       try {
-        const res = await fetch("http://127.0.0.1:8000/shortlet-bookings/", {
+        const res = await fetch("http://3.145.117.245:8000/shortlet-bookings/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -164,7 +164,7 @@ export const ProductProvider = ({ children }) => {
     if (!q) return setLocationSuggestions([]);
     try {
       const res = await fetch(
-        `http://127.0.0.1:8000/api/locations/?q=${encodeURIComponent(q)}`
+        `http://3.145.117.245:8000//api/locations/?q=${encodeURIComponent(q)}`
       );
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
@@ -178,7 +178,7 @@ export const ProductProvider = ({ children }) => {
     if (!q) return setHotelSuggestions([]);
     try {
       const res = await fetch(
-        `http://127.0.0.1:8000/api/hotels/?q=${encodeURIComponent(q)}`
+        `http://3.145.117.245:8000/api/hotels/?q=${encodeURIComponent(q)}`
       );
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
@@ -192,7 +192,7 @@ export const ProductProvider = ({ children }) => {
     if (!q) return setShortletSuggestions([]);
     try {
       const res = await fetch(
-        `http://127.0.0.1:8000/api/shortlets/?q=${encodeURIComponent(q)}`
+        `http://3.145.117.245:8000//api/shortlets/?q=${encodeURIComponent(q)}`
       );
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
@@ -207,7 +207,7 @@ export const ProductProvider = ({ children }) => {
   // ──────────────────────────────────────────────────────────────
   const fetchCarRentals = useCallback(async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/car-rentals/");
+      const res = await fetch("http://3.145.117.245:8000/api/car-rentals/");
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
       setCarRentals(data);
@@ -218,7 +218,7 @@ export const ProductProvider = ({ children }) => {
 
   const fetchVacations = useCallback(async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/vacations/");
+      const res = await fetch("http://3.145.117.245:8000/api/vacations/");
       if (!res.ok) throw new Error(res.statusText);
       let data = await res.json();
       data = data.map((vac, idx) => ({
@@ -234,7 +234,7 @@ export const ProductProvider = ({ children }) => {
   const fetchVacationDetail = useCallback(async (id) => {
     if (!id) return;
     try {
-      const res = await fetch(`http://127.0.0.1:8000/api/vacations/${id}/`);
+      const res = await fetch(`http://3.145.117.245:8000/api/vacations/${id}/`);
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
       setVacationDetail(data);
@@ -245,7 +245,7 @@ export const ProductProvider = ({ children }) => {
 
   const fetchMapDestinations = useCallback(async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/map-destinations/");
+      const res = await fetch("http://3.145.117.245:8000/api/map-destinations/");
       if (!res.ok) throw new Error(res.statusText);
       const data = await res.json();
       setMapDestinations(data);
